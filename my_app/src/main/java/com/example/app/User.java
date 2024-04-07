@@ -7,7 +7,8 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class User {
-
+  // Takes user info "userID" from Json 
+  // and stores as Id
   @JsonProperty("userId")
   private int id;
 
